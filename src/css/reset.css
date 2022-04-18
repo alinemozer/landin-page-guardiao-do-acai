@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     border: none;
-    outline: none;
-    font-weight: 300;
     box-sizing: border-box;
-    font-family: 'Gagalin' , monospace;
+    font-family: 'Gagalin', 'Edo';
     font-style: italic;
     letter-spacing: 0.1em;
 }
