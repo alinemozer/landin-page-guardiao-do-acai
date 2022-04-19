@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gagalin';
-    src: url('../fonts/gagalin.otf');
+    src: url('../fonts/gagalin.otf'), url('../fonts/Gagalin-Regular.ttf');
     font-family: 'Edo';
     src: url('../fonts/edosz.ttf');
 }
@@ -77,7 +77,6 @@ main {
 .texto-com-imagem img {
     margin-top: 70px;
     border-radius: 50px;
-    max-width: 750px;
 }
 
 .formulario {
@@ -145,7 +144,7 @@ main {
 }
 
 .rodape h2 {
-    margin-top: 65px;
+    margin-top: 55px;
     font-size: 1.5rem;
     text-align: center;
 }
