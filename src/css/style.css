@@ -34,7 +34,7 @@ body {
 
 .cabecalho .logo img {
     display: flex;
-    width: 100px;
+    width: 80px;
 }
 
 .cabecalho .conteudo-cabecalho i {
@@ -125,9 +125,13 @@ main {
 
 .formulario .btn {
     font-size: 3rem;
-    padding: 10px 15px;
+    padding: 10px 20px;
     background-color: #6e0b63;
     border-radius: 50px;
+}
+
+.formulario .btn:hover {
+    color: #009f2f;
 }
 
 .formulario p {
@@ -141,7 +145,7 @@ main {
 }
 
 .rodape h2 {
-    margin-top: 150px;
+    margin-top: 65px;
     font-size: 1.5rem;
     text-align: center;
 }
