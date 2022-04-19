@@ -42,7 +42,7 @@ body {
 }
 
 .cabecalho a h2 {
-    font-family: 'Edo';
+    /* font-family: 'Edo'; */
     font-size: 2.5rem;
     padding: 10px 15px;
     transition: 1s ease-in-out;
@@ -62,7 +62,7 @@ main {
 }
 
 .texto-com-imagem h1 {
-    font-family: 'Edo';
+    /* font-family: 'Edo'; */
     font-size: 5.5rem;
     text-align: center;
     margin-top: 70px;
@@ -71,7 +71,7 @@ main {
 .texto-com-imagem span {
     font-size: larger;
     color: #009f2f;
-    font-family: 'Edo';
+    /* font-family: 'Edo'; */
 }
 
 .texto-com-imagem img {
