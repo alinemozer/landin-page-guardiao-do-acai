@@ -8,19 +8,16 @@
     }
 }
 
-@media (max-width: 855px) {
+@media (max-width: 900px) {
     main {
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
     .cabecalho {
-        flex-wrap: wrap;
+        display: block;
     }
-}
 
-@media (max-width: 505px) {
-
-    .cabecalho .conteudo-cabecalho .logo{
+    .cabecalho .conteudo-cabecalho .logo {
         padding: 35px 0 35px;
         display: block;
         text-align: center;
@@ -30,13 +27,19 @@
         margin: 0 auto;
     }
 
-
     .cabecalho .conteudo-cabecalho h2 {
         font-size: 2rem;
+    }
 }
 
+@media (max-width: 505px) {
     .texto-com-imagem h1 {
         font-size: 3.5rem;
+    }
+
+    .fotmulario label, input {
+        display: block;
+        margin: 0 auto;
     }
 
     .formulario h2 {
