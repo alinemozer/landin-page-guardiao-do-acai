@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Gagalin';
-    src: url('../fonts/gagalin.ttf'), /*url('../fonts/gagalin.otf')*/;
-    font-family: 'Edo';
-    src: url('../fonts/edosz.ttf');
+    src: url('../fonts/gagalin.ttf'), url('../fonts/gagalin.otf');
+    /* font-family: 'Edo';
+    src: url('../fonts/edosz.ttf'); */
 }
 
 html {
