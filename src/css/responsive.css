@@ -1,0 +1,45 @@
+@media (max-width: 1350px) {
+    main {
+        flex-wrap: wrap;
+    }
+
+    .rodape h2 {
+        margin: 50px auto 20px;  
+    }
+}
+
+@media (max-width: 855px) {
+    main {
+        padding: 0 20px;
+    }
+
+    .cabecalho {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 505px) {
+
+    .cabecalho .conteudo-cabecalho .logo{
+        padding: 35px 0 35px;
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho .conteudo-cabecalho .logo img {
+        margin: 0 auto;
+    }
+
+
+    .cabecalho .conteudo-cabecalho h2 {
+        font-size: 2rem;
+}
+
+    .texto-com-imagem h1 {
+        font-size: 3.5rem;
+    }
+
+    .formulario h2 {
+        font-size: 2.5rem;
+    }
+}

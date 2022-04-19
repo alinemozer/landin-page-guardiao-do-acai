@@ -34,18 +34,18 @@ body {
 
 .cabecalho .logo img {
     display: flex;
-    width: 80px;
+    width: 100px;
 }
 
 .cabecalho .conteudo-cabecalho i {
     font-size: 6rem;
 }
 
-.cabecalho a h2, i  {
+.cabecalho a h2 {
     font-family: 'Edo';
     font-size: 2.5rem;
     padding: 10px 15px;
-    transition: 1s ease;
+    transition: 1s ease-in-out;
 }
 
 .cabecalho .conteudo-cabecalho a h2:hover, i:hover {
@@ -65,7 +65,7 @@ main {
     font-family: 'Edo';
     font-size: 5.5rem;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .texto-com-imagem span {
@@ -75,8 +75,9 @@ main {
 }
 
 .texto-com-imagem img {
-    margin-top: 50px;
+    margin-top: 70px;
     border-radius: 50px;
+    max-width: 750px;
 }
 
 .formulario {
@@ -84,7 +85,7 @@ main {
     max-width: 550px;
     background-color: #009f2f;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .formulario h2 {
@@ -106,13 +107,16 @@ main {
     text-align: center;
 }
 
-.formulario #nome, #sobrenome {
+.formulario #nome {
     width: 150px;
+}
+
+.formulario #nome, #sobrenome {
     margin-bottom: 15px;
 }
 
 .formulario #telefone {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .formulario #sobrenome, #telefone {
@@ -133,11 +137,11 @@ main {
 
 .logo-formulario {
     width: 200px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
-.rodape {
-    padding-top: 60px;
+.rodape h2 {
+    margin-top: 150px;
     font-size: 1.5rem;
     text-align: center;
 }
