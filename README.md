@@ -1,6 +1,4 @@
 # landin-page-guardiao-do-acai
-Repositório com landing page simples, para treinamento do uso de Flexbox.
+Repositório com landing page responsiva, para treinamento do uso de Flexbox.
 
-![image](https://user-images.githubusercontent.com/97855964/164024702-5c49d232-661c-411e-8599-fc7da8fe0e9a.png)
-![image](https://user-images.githubusercontent.com/97855964/164024503-2fbd11a3-d0e9-455e-9f3d-7418422a2d55.png)
-
+![image](https://user-images.githubusercontent.com/97855964/164236343-c6b61ba9-a8e3-4047-b18a-1f8834483e90.png)
