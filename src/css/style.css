@@ -3,6 +3,10 @@
     src: url('../fonts/gagalin.ttf');
 }
 
+html, body {
+    height: 100%;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -10,11 +14,8 @@ html {
 body {
     background-color: #6e0b63;
     color: #fdf5d5;
-}
-
-main {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .cabecalho {
@@ -54,6 +55,12 @@ main {
     color: #6e0b63;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 0 auto;
+}
+
 .texto-com-imagem {
     max-width: 750px;
 }
@@ -76,10 +83,11 @@ main {
 
 .formulario {
     text-align: center;
+    max-height: 700px;
     max-width: 550px;
     background-color: #009f2f;
     border-radius: 50px;
-    margin-top: 70px;
+    margin: 70px 0 50px;
 }
 
 .formulario h2 {
@@ -140,12 +148,11 @@ main {
 
 .rodape {
     background-color: #009f2f;
-    padding-bottom: 15px;
+    padding: 10px;
+    flex-shrink: 0;
 }
 
 .rodape h2 {
-    margin-top: 55px;
-    padding-top: 15px;
     font-size: 1.5rem;
     text-align: center;
 }

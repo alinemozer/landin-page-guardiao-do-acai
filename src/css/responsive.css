@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 505px) {
+@media (max-width: 575px) {
     .texto-com-imagem h1 {
         font-size: 3.5rem;
     }
@@ -46,3 +46,10 @@
         font-size: 2.5rem;
     }
 }
+
+@media (max-width: 520px) {
+    .logo-formulario {
+        width: 110px;
+    }
+}
+
