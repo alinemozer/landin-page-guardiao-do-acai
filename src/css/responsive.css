@@ -1,18 +1,11 @@
 @media (max-width: 1350px) {
-    main {
+    .container {
         flex-wrap: wrap;
-    }
-
-    .rodape h2 {
-        margin: 50px auto 20px;  
+        padding: 35px;
     }
 }
 
 @media (max-width: 900px) {
-    main {
-        padding: 0 30px;
-    }
-
     .cabecalho {
         display: block;
     }
