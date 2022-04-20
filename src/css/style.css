@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gagalin';
-    src: url('../fonts/gagalin.ttf'), url('../fonts/gagalin.otf');
+    src: url('../fonts/gagalin.ttf');
     font-family: 'Edo';
     src: url('../fonts/edosz.ttf');
 }
@@ -145,11 +145,12 @@ main {
 
 .rodape {
     background-color: #009f2f;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .rodape h2 {
     margin-top: 55px;
+    padding-top: 15px;
     font-size: 1.5rem;
     text-align: center;
 }
