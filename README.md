@@ -4,5 +4,9 @@ Repositório com landing page responsiva, para treinamento do uso de Flexbox. <b
 🖥 Tecnologias utilizadas:
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  
-![image](https://user-images.githubusercontent.com/97855964/164236343-c6b61ba9-a8e3-4047-b18a-1f8834483e90.png)
+ 
+ ✔ Projeto finalizado, nas resoluções 375px e telas maiores: <br> 
+ 
+![Gif Guardiao](https://user-images.githubusercontent.com/97855964/168166292-59da58a6-2d7a-4237-a5ec-27ddfd0af0dd.gif)
+
+![screencapture-alinemozer-github-io-landin-page-guardiao-do-acai-2022-05-12-17_47_24](https://user-images.githubusercontent.com/97855964/168165310-6ca1f6c3-eb73-4514-af2e-f4250968ea39.png)
