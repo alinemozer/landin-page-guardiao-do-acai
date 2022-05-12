@@ -1,5 +1,5 @@
 # landin-page-guardiao-do-acai
-Repositório com landing page responsiva, para treinamento do uso de Flexbox. <br> <br>
+Repositório com landing page responsiva, para treinamento do uso de Flexbox. <br>
 
 🖥 Tecnologias utilizadas:
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
