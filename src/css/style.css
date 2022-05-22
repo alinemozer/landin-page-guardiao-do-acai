@@ -14,14 +14,16 @@ html, body {
 
 .cabecalho {
     background-color: #009f2f;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 5px;
 }
 
 .cabecalho .conteudo-cabecalho {
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1440px;
 }
 
 .cabecalho .logo {
@@ -32,24 +34,27 @@ html, body {
 
 .cabecalho .logo img {
     display: flex;
-    width: 80px;
+    width: 60px;
+    margin: 0 20px 0;
 }
 
 .cabecalho .conteudo-cabecalho i {
     font-size: 6rem;
+    margin: 0 20px 0;
 }
 
-.cabecalho a h2 {
-    font-size: 2.5rem;
+.cabecalho a {
+    align-self: flex-start;
+    font-size: 1.5rem;
     padding: 10px 15px;
     transition: 0.5s ease-in-out;
 }
 
-.cabecalho a i {
+.cabecalho a {
     transition: 0.5s ease-in-out;
 }
 
-.cabecalho .conteudo-cabecalho a h2:hover, i:hover {
+.cabecalho .conteudo-cabecalho a:hover {
     color: #6e0b63;
 }
 
@@ -67,7 +72,7 @@ html, body {
 .texto-com-imagem h1 {
     font-size: 5.5rem;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 95px;
 }
 
 .texto-com-imagem span {
@@ -76,7 +81,7 @@ html, body {
 }
 
 .texto-com-imagem img {
-    margin-top: 70px;
+    margin-top: 50px;
     border-radius: 50px;
 }
 
@@ -86,7 +91,7 @@ html, body {
     max-width: 550px;
     background-color: #009f2f;
     border-radius: 50px;
-    margin: 70px 0 50px;
+    margin: 60px 0 50px;
 }
 
 .formulario h2 {

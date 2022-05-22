@@ -1,27 +1,22 @@
 @media (max-width: 1350px) {
     .container {
         flex-wrap: wrap;
-        padding: 35px;
+        padding: 0 35px;
     }
 }
 
 @media (max-width: 900px) {
-    .cabecalho {
-        display: block;
-    }
+.cabecalho .conteudo-cabecalho {
+    justify-content: center;
+}
 
     .cabecalho .conteudo-cabecalho .logo {
         padding: 35px 0 35px;
-        display: block;
-        text-align: center;
-    }
-
-    .cabecalho .conteudo-cabecalho .logo img {
-        margin: 0 auto;
     }
 
     .cabecalho .conteudo-cabecalho h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
+        padding: 0 25px 0 0;
     }
 }
 
